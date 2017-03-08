@@ -71,9 +71,55 @@
 
 // document.getElementById('two').innerHTML = stolenText
 
-function getInfo() {
-var username = document.getElementById("username").value
-var password = document.getElementById('password').value
+// function getInfo() {
+// var username = document.getElementById("username").value
+// var password = document.getElementById('password').value
 
-document.write("username: "+ username + " and Password:" + password)
+// document.write("username: "+ username + " and Password:" + password)
+// }
+
+// var pokemonArray = ["bulbasaur", "charmander", "squirtle", "pikachu"]
+// // console.log(pokemonArray[0])
+// // console.log(pokemonArray[1])
+// // console.log(pokemonArray[2])
+// // console.log(pokemonArray[3])
+
+// for(i=0;i < pokemonArray.length;i++) {
+// 	console.log(pokemonArray[i])
+// }
+
+// var carObject = [
+// 	make: "fiat",
+// 	year: 2000,
+// 	purchased: false
+// 	model: var panda = {
+// 		size: "small"
+// 	}
+// }
+// console.log(carObject)
+
+var carArray = [
+{
+	make: "fiat",
+	year: 2000,
+	purchased: false
+	
+}, {
+
+	make: "toyoya",
+	year: 2014,
+	purchased: true
+	
+},{
+
+	make: "chevrolet",
+	year: 2016,
+	purchased: false
+	
+}]
+
+for(i=0; i < carArray.length; i++) {
+	if(carArray[i].year <= 2014) {
+		console.log(carArray[i].make + " " + carArray[i].year)
+	}
 }
