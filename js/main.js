@@ -98,28 +98,30 @@
 // }
 // console.log(carObject)
 
-var carArray = [
-{
-	make: "fiat",
-	year: 2000,
-	purchased: false
+// var carArray = [
+// {
+// 	make: "fiat",
+// 	year: 2000,
+// 	purchased: false
 	
-}, {
+// }, {
 
-	make: "toyoya",
-	year: 2014,
-	purchased: true
+// 	make: "toyoya",
+// 	year: 2014,
+// 	purchased: true
 	
-},{
+// },{
 
-	make: "chevrolet",
-	year: 2016,
-	purchased: false
+// 	make: "chevrolet",
+// 	year: 2016,
+// 	purchased: false
 	
-}]
+// }]
 
-for(i=0; i < carArray.length; i++) {
-	if(carArray[i].year <= 2014) {
-		console.log(carArray[i].make + " " + carArray[i].year)
-	}
-}
+// for(i=0; i < carArray.length; i++) {
+// // 	if(carArray[i].year <= 2014) {
+// 		console.log(carArray[i].make + " " + carArray[i].year)
+// 	}
+// }
+
+dfxgsxfgd
