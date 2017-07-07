@@ -122,6 +122,6 @@
 // // 	if(carArray[i].year <= 2014) {
 // 		console.log(carArray[i].make + " " + carArray[i].year)
 // 	}
-// }
 
-dfxgsxfgd
+
+document.getElementById("hi").textContent = "Javascript"
