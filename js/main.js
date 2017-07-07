@@ -71,12 +71,12 @@
 
 // document.getElementById('two').innerHTML = stolenText
 
-// function getInfo() {
-// var username = document.getElementById("username").value
-// var password = document.getElementById('password').value
+ function getInfo() {
+ var username = document.getElementById("username").value
+ var password = document.getElementById('password').value
 
-// document.write("username: "+ username + " and Password:" + password)
-// }
+ document.write("username: "+ username + " and Password:" + password)
+ }
 
 // var pokemonArray = ["bulbasaur", "charmander", "squirtle", "pikachu"]
 // // console.log(pokemonArray[0])
@@ -126,4 +126,9 @@
 
 document.getElementById("hi").textContent = "Javascript"
 
-document.getElementById("header").innerHTML = "header"
+var text = "headers go here"
+document.getElementById("header")
+document.write(text);
+
+var username = document.getElementById("username").value
+	console.log(username)
