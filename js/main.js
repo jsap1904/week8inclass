@@ -125,3 +125,5 @@
 
 
 document.getElementById("hi").textContent = "Javascript"
+
+document.getElementById("header").innerHTML = "header"
